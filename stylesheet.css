@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+body{
+    margin: 0;
+    padding: 0;
+    /*background-color:#212121;*/
+    background-color: black;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+}
+header{
+    text-align: center;
+    background-color: #333;
+    padding: 12px;
+    /* position: fixed;
+    width: 25%; */
+    /* display: flex; */
+    /* justify-items: center;
+    align-content: center; */
+    /* left: 50%; */
+    /* width: 98%; */
+     /* display: flex;
+    /* align-content: center; */
+    /* justify-content: center;
+    text-align: center; */
+    
+}
+.main{
+    /* display: flex;
+    align-content: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+header{
+    border-radius: 15px;
+}
+
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Share Tech Mono', monospace;
+    /* margin: px; */
+}
+nav a:hover{
+    color: gold;
+}
+#homeTxt{
+    color: gold;
+}
+.logo{
+    background: url("img.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10px;
+}
+.logo .logo-txt{
+    color: white;
+    margin: 20% 10%;
+}
+.logo-txt p{
+    margin-top: 72px;
+}
+.logo .logo-txt a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    /*border: 2px white solid;
+    background-color: black;*/
+    padding: 5px 10px;
+}
+.about-txt{
+    padding: 10px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.works-txt{
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.works .boxes{
+    display: flex;
+    flex-direction: row;
+    margin-left:20px;
+    padding: 40px 0px;
+}
+.boxes .pic{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+}
+#i{
+    background: url("pics\ \(1\).jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px;
+    border-radius: 15px;
+    transition: ease-in-out 1s;
+}
+#ii{
+    background: url("pics\ \(2\).jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px;
+    border-radius: 15px;
+    transition: ease-in-out 1s;
+}
+#iii{
+    background: url("pics\ \(3\).jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px;
+    border-radius: 15px;
+    transition: ease-in-out 1s;
+}
+#iv{
+    background: url("pics\ \(4\).jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px;
+    border-radius: 15px;
+    transition: ease-in-out 1s;
+}
+#v{
+     background: url("pics\ \(5\).jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px;
+    border-radius: 15px;
+    transition: ease-in-out 1s;
+}
+#i:hover{
+    width: 720px;
+    height: 480px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+#ii:hover{
+    width: 720px;
+    height: 480px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+#iii:hover{
+    width: 720px;
+    height: 480px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+#iv:hover{
+    width: 720px;
+    height: 480px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+#v:hover{
+    width: 720px;
+    height: 480px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+
+.contact-txt{
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skills-boxes{
+    display: flex;
+    flex-direction: row;
+}
+.skills-boxes .skill-box{
+    width: 33%;
+    height: 260px;
+    text-align: center;
+}
+.skill-box i{
+    font-size: 24px;
+}
+#project-time{
+    font-size: 24px;
+}
+#coffee-time{
+    font-size: 24px;
+}
+#worked-time{
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+
+/*mobile*/
+@media (max-width:768px){
+    header nav a{
+        font-size: 12.5px;
+    }
+
+    .works .boxes{
+        flex-direction: column;
+    }
+    #i:hover{
+    width: 240px;
+    height: 240px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+#ii:hover{
+    width: 720px;
+    height: 480px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+#iii:hover{
+    width: 720px;
+    height: 480px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+#iv:hover{
+    width: 720px;
+    height: 480px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+#v:hover{
+    width: 720px;
+    height: 480px;
+    margin-top: -20px;
+    transition: ease-in-out 1s;
+}
+
+.works .boxes{
+    display: flex;
+    flex-direction: column;
+    margin-left:0;
+    margin-bottom: 8px;
+    padding: 40px 0px;
+}
+.boxes .pic{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+}
+
+/* 
+.demo{
+    background: url("patisserie-home-banner-1440x414.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10px;
+} 
+
+.merge{
+    background-color: white;
+    /* height: 320px; */
+} */
